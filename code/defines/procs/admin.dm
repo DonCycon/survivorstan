@@ -13,3 +13,4 @@
 		to_send.embed = embed
 
 		send2chat(to_send, CONFIG_GET(string/important_log_channel))
+// test
