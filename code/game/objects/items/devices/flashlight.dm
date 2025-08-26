@@ -605,6 +605,18 @@
 	desc = "A rugged alien lantern with a metallic frame, emitting a steady red glow. Its light has an unsettling, otherworldly aura."
 	on = TRUE
 
+	/obj/item/device/flashlight/lantern/tactical
+	name = "lantern"
+	icon_state = "tactical_lantern"
+	item_state = ""
+	desc = "A cheap plastic LED lantern."
+	light_range = 6 // luminosity when on
+	light_color = "#7fc6ea"
+
+/obj/item/device/flashlight/lantern/tactical/on
+	on = TRUE
+
+
 //Signal Flare
 /obj/item/device/flashlight/flare/signal
 	name = "signal flare"
